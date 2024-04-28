@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap'); 
+
+body {
+    font-family: "Spline Sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #F58d17
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.shadow-on-hover {
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/*Btn*/
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    color: #fff;
+    font-weight: 500;
+    border-color: #1a1d2f;
+    background-color: #1a1d2f;
+}
+
+.btn-brand:hover {
+    border-color: #b5b7c1;
+    background-color: #b5b7c1;
+    color: #222743;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Slider */
+.slide-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/ome1.jpg);
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home.jpg);
+}
+
+.slide-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home2.jpg);
+}
+
+.slide-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home3.jpg);
+}
+
+.slide-5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home4.jpg);
+}
+
+.slide-6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home5.jpg);
+}
+
+.slide-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home6.jpg);
+}
+
+.slide-8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home7.jpg);
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/home3.jpg);
+    padding-top: 120p;
+    padding-bottom: 30px;   
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer img {
+    width: 175px;
+}
+
+footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.ic img {
+    width: 3%;
+    border-radius: 50px;
+}
